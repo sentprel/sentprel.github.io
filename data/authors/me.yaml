@@ -2,18 +2,17 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
+  display: Jaehyun Lee
+  given: Jaehyun
+  family: Lee
   alternate: ''  # Example: 王伟
   pronunciation: ''  # Example: Wáng Wěi
   pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+postnominals: []
+
 status:
   icon: "☕️"
-role: Senior AI Research Scientist
+role: Algorithm Engineer (Manufacturing Data & Signal Analytics)
 bio: |
   Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
   has been published in top conferences like NeurIPS and ICML, with over
@@ -21,8 +20,8 @@ bio: |
   while ensuring ethical development.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Independent
+    url: ""
 
 links:
   - icon: at-symbol
@@ -40,65 +39,70 @@ links:
     url: https://orcid.org/0000-0002-1825-0097
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Manufacturing analytics (machining)
+  - Time-series data analysis
+  - Signal processing for condition monitoring
+  - ML-based estimation (signal + image)
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: MS/PhD Integrated Program, Mechanical Engineering (withdrawn)
+    institution: Yonsei University
+    start: 2023-03
+    end: 2025-12
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      Completed 6 semesters of graduate coursework and research in Mechanical Engineering. (No degree awarded)
+  - degree: BS Mechatronics Engineering
+    institution: KOREATECH (Korea University of Technology and Education)
+    start: 2017-03
+    end: 2023-02
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
+  - role: Researcher
+    org: Korea Institute of Industrial Technology (KITECH)
+    start: 2023-03
+    end: 2025-12
     summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
+      Developed machining analytics algorithms in Python/MATLAB, including real-time chatter diagnosis, real-time abnormal-vibration severity estimation from monitoring signals, and ML-based real-time tool-condition estimation by linking time-series signals with synchronized tool images.
+      Co-designed a sensor-based monitoring system and intelligent app workflow with an external development vendor, defining required data streams, preprocessing logic, I/O specifications, and GUI/dashboard structure for real-time visualization and alerts.
+      Deployed an algorithm-driven solution to manufacturing sites; achieved ≥85% tool-condition classification accuracy across heterogeneous equipment setups, with systems currently in operation.
+  - role: Research Intern
+    org: Korea Institute of Industrial Technology (KITECH)
+    start: 2022-07
+    end: 2022-12
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Supported development of a machining monitoring pipeline, focusing on sensor-signal preprocessing methodologies that leverage sensor-specific characteristics for reliable downstream analytics.
 
 skills:
-  - name: Technical Skills
+  - name: Data & Algorithms (Time-series / ML / Signal Processing)
     items:
-      - label: Python
+      - label: Time-series analytics (preprocessing, feature extraction, anomaly diagnosis)
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: Machine learning (signal + image, scikit-learn / PyTorch)
         level: 4
-  - name: Research & Communication
+      - label: Signal processing (FFT, chatter analysis, filtering)
+        level: 5
+      - label: Real-time diagnostics & severity estimation
+        level: 5
+
+  - name: System Development & Field Deployment (Monitoring → App/Dashboard → Operation)
     items:
-      - label: Academic Writing
+      - label: Sensor-based monitoring system setup and on-site data acquisition
         level: 5
-      - label: Conference Presentations
+      - label: Edge-based data pipeline for real-time monitoring
+        level: 3
+      - label: Dashboard/alert concept design (including vendor collaboration)
         level: 4
-      - label: Grant Proposals
+      - label: On-site deployment and operation across heterogeneous equipment setups
         level: 4
+
+  - name: Experiments & Metrology (Data Generation)
+    items:
+      - label: Machining testbed experiment design and multi-sensor measurement / dataset building
+        level: 4
+      - label: Tool-wear measurement (microscopy / 3D laser microscopy)
+        level: 4
+      - label: Modal testing and FRF estimation
+        level: 5
 
 languages:
   - name: English
