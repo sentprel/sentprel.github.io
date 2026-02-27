@@ -5,18 +5,17 @@ name:
   display: Jaehyun Lee
   given: Jaehyun
   family: Lee
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  alternate: ''
+  pronunciation: ''
   pronouns: he/him
 postnominals: []
 
+role: Data Analyst (ML & Predictive Analytics)
 
-role: Algorithm Engineer (Manufacturing Data & Signal Analytics)
 bio: |
-  Algorithm engineer specialized in manufacturing data and monitoring-signal analytics.
-  Developed real-time diagnostics and estimation pipelines for machining processes,
-  including ML-based real-time tool-condition estimation by linking time-series signals with synchronized tool images.
-  Experienced in field deployment through monitoring system setup and vendor collaboration for intelligent applications.
+  Data analyst specializing in time-series analysis and ML-based predictive modeling.
+  Experienced in transforming complex, high-dimensional industrial datasets into actionable insights and deployable analytical solutions.
+  Strong background in anomaly detection, severity estimation, and multimodal modeling (time-series + image data) in real production environments.
 
 affiliations:
   - name: Independent
@@ -30,10 +29,10 @@ links:
     url: https://github.com/sentprel
 
 interests:
-  - Manufacturing analytics (machining)
   - Time-series data analysis
-  - Signal processing for condition monitoring
-  - ML-based estimation (signal + image)
+  - Predictive analytics & ML modeling
+  - Anomaly detection
+  - Multimodal data analytics (signal + image)
 
 education:
   - degree: MS/PhD Integrated Program, Mechanical Engineering (incomplete)
@@ -41,7 +40,7 @@ education:
     start: 2023-03
     end: 2025-12
     summary: |
-      Completed 6 semesters of graduate coursework and research in Mechanical Engineering. (No degree awarded)
+      Completed 6 semesters of graduate coursework and research in data-driven modeling and engineering analytics. (No degree awarded)
   - degree: BS Mechatronics Engineering
     institution: KOREATECH (Korea University of Technology and Education)
     start: 2017-03
@@ -53,46 +52,48 @@ experience:
     start: 2023-03
     end: 2025-12
     summary: |
-      Developed machining analytics algorithms in Python/MATLAB, including real-time chatter diagnosis, real-time abnormal-vibration severity estimation from monitoring signals, and ML-based real-time tool-condition estimation by linking time-series signals with synchronized tool images.
-      Co-designed a sensor-based monitoring system and intelligent app workflow with an external development vendor, defining required data streams, preprocessing logic, I/O specifications, and GUI/dashboard structure for real-time visualization and alerts.
-      Deployed an algorithm-driven solution to manufacturing sites; achieved ≥85% tool-condition classification accuracy across heterogeneous equipment setups, with systems currently in operation.
+      Led end-to-end time-series data analysis and ML-based predictive modeling in Python/MATLAB.
+      Built real-time anomaly detection and severity estimation models from monitoring data, including multimodal ML approaches combining time-series and image data.
+      Collaborated in designing data pipelines, preprocessing logic, and dashboard requirements for production-level analytical applications.
+      Delivered data-driven analytical solutions in real operational environments, achieving ≥85% classification accuracy across heterogeneous datasets.
+
   - role: Research Intern
     org: Korea Institute of Industrial Technology (KITECH)
     start: 2022-07
     end: 2022-12
     summary: |
-      Supported development of a machining monitoring pipeline, focusing on sensor-signal preprocessing methodologies that leverage sensor-specific characteristics for reliable downstream analytics.
+      Supported development of data preprocessing methodologies for high-frequency time-series signals, improving reliability and robustness of downstream analytics models.
 
 skills:
-  - name: Data & Algorithms (Time-series / ML / Signal Processing)
+  - name: Data Analytics & Modeling
     items:
-      - label: Time-series analytics (preprocessing, feature extraction, anomaly diagnosis)
+      - label: Time-series analysis (preprocessing, feature extraction, anomaly detection)
         level: 5
-      - label: Machine learning (signal + image, scikit-learn / PyTorch)
+      - label: Predictive modeling (scikit-learn / PyTorch)
         level: 4
-      - label: Signal processing (FFT, chatter analysis, filtering)
+      - label: Signal-based data analytics (FFT, filtering, feature engineering)
         level: 5
-      - label: Real-time diagnostics & severity estimation
+      - label: Real-time data analytics & model evaluation
         level: 5
 
-  - name: System Development & Field Deployment (Monitoring → App/Dashboard → Operation)
+  - name: Data Pipeline & Applied Analytics
     items:
-      - label: Sensor-based monitoring system setup and on-site data acquisition
+      - label: Industrial data acquisition & preprocessing design
         level: 5
-      - label: Edge-based data pipeline for real-time monitoring
+      - label: Real-time data pipeline design
         level: 3
-      - label: Dashboard/alert concept design (including vendor collaboration)
+      - label: Dashboard & analytical workflow definition (cross-functional collaboration)
         level: 4
-      - label: On-site deployment and operation across heterogeneous equipment setups
+      - label: Model deployment in production-like environments
         level: 4
 
-  - name: Experiments & Metrology (Data Generation)
+  - name: Experimental Data Generation & Validation
     items:
-      - label: Machining testbed experiment design and multi-sensor measurement / dataset building
+      - label: Testbed experiment design & multi-sensor dataset construction
         level: 4
-      - label: Tool-wear measurement (microscopy / 3D laser microscopy)
+      - label: Image-based measurement & validation
         level: 3
-      - label: Modal testing and FRF estimation
+      - label: Modal analysis & FRF-based validation
         level: 4
 
 languages:
