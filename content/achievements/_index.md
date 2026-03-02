@@ -1,48 +1,11 @@
 ---
-title: Achievements
-type: landing
+title: "Achievements"
+type: "page"
 ---
 
-{{< blocks >}}
+## Achievements
 
-{{< block "collection" title="Journals" >}}
-filters:
-  folders:
-    - publications
-  publication_type: "2"
-design:
-  view: card
-  columns: 2
-{{< /block >}}
-
-{{< block "collection" title="International Conferences" >}}
-filters:
-  folders:
-    - publications
-  publication_type: "1"
-design:
-  view: card
-  columns: 2
-{{< /block >}}
-
-{{< block "collection" title="Domestic Conferences" >}}
-filters:
-  folders:
-    - publications
-  tag: "domestic-conference"
-design:
-  view: card
-  columns: 2
-{{< /block >}}
-
-{{< block "collection" title="Patents" >}}
-filters:
-  folders:
-    - publications
-  tag: "patent"
-design:
-  view: card
-  columns: 2
-{{< /block >}}
-
-{{< /blocks >}}
+- [Journals](/journals/)
+- [International Conferences](/international-conferences/)
+- [Domestic Conferences](/domestic-conferences/)
+- [Patents](/patents/)
